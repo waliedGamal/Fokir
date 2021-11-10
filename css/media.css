@@ -1,0 +1,766 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575.98px)
+{
+.home
+{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.home-content h1
+{
+    font-size: 50px;
+}
+.typing1 p
+{
+    font-size: 20px;
+}
+
+.home .navbar .links
+{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.home-content-contianer
+{
+    padding: 50px 0px;
+}
+.home-content h5
+{
+    font-size: 20px;
+}
+.home-content h1
+{
+    font-size: 40px;
+}
+
+.about
+{
+    flex-direction: column;
+    
+}
+.about-content .content h2
+{
+    font-size: 30px;
+}
+.about-content .content h2::before
+{
+    height: 45%;
+}
+.about .img-contianer
+{
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about .img-contianer img
+{
+    width: 100%;
+}
+
+.about-content
+{
+    width: 100%;
+}
+.about-content .content
+{
+    margin: 50px;
+}
+
+.Services .desing
+{
+    width:30%;
+}
+.Services h2
+{
+    font-size: 30px;
+}
+
+.Services .services-container
+{
+    flex-direction: column;
+}
+.Services .services-container .service
+{
+    width: 100%;
+}
+
+.Portfolio .portfolio-imgs .portfolio-container
+{
+    flex-direction: column;
+}
+.Portfolio .portfolio-imgs .portfolio-img
+{
+    width: 90%;
+    margin-left: 25px;
+}
+.Portfolio
+{
+    margin: 50px 0px;
+}
+.Portfolio h2
+{
+    font-size: 30px;
+}
+.Portfolio .desing
+{
+    width: 30%;
+}
+.Services .services-container
+{
+    margin: 0px 20px;
+    padding: 10px;
+}
+.Services .services-container .service
+{
+    padding: 20px;
+}
+.counter
+{
+    width: 95%;
+    margin: auto;
+}
+.counter-contianer
+{
+    flex-direction: column;
+}
+.counter .single-counter
+{
+    width:100%;
+    padding: 20px;
+}
+.counter .counter-contianer .single-counter i
+{
+    margin-top: 5px;
+}
+
+.feedback .feedback-img .feedback-contianer
+{
+    width: 50%;
+    flex-direction: column;
+}
+.feedback .feedback-img .feedback-contianer h3
+{
+    margin-top: 30px;
+}
+
+.feedback .feedback-contianer .feedback-content 
+{
+    width: 100%;
+    margin-top:30px;
+}
+.feedback .feedback-img .feedback-contianer img
+{
+    width: 80%;
+}
+.feedback .feedback-img .feedback-contianer .stars i
+{
+    left:0;
+}
+.feedback h2
+{
+    font-size: 30px ;
+}
+.feedback .desing
+{
+    width: 30%;
+}
+.blog h2
+{
+    font-size: 30px;
+}
+.blog .desing
+{
+    width: 30%;
+}
+
+.blog .blog-imgs .blog-container
+{
+    flex-direction: column;
+    width: 90%;
+}
+.blog .blog-imgs .blog-img1
+{
+    width: 100%;
+    margin: 10px 25px;
+}
+
+.contact .form .first
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .form .first .input-name
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact .form .first .input-email
+{
+    width: 100%;
+}
+
+.contact .form .second
+{
+    width: 90%;
+}
+
+.contact .form .second .input-subject
+{
+    width: 100%;
+}
+
+.contact .form .second .input-area
+{
+    width: 100%;
+}
+.contact .desing
+{
+    width:30%;
+}
+}
+
+/*<!-- Small devices (portrait tablets and large phones, 600px and up) --> */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) 
+{
+    .home
+    {
+        height: 700px;
+        background-size: cover;
+        background-position:center;
+    }
+    .home-content h1
+    {
+        font-size: 50px;
+    }
+    .home .navbar .links
+    {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .about
+    {
+        flex-direction: column;
+    }
+    .about .img-contianer
+    {
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .about .img-contianer img
+    {
+        width: 100%;
+    }
+    
+    .about-content
+    {
+        width: 100%;
+    }
+    .about-content .content
+    {
+        margin: 50px;
+    }
+    .Services .services-container
+    {
+        flex-direction: column;
+    }
+    .Services .services-container .service
+    {
+        width: 100%;
+    }
+    
+    .Portfolio .portfolio-imgs .portfolio-container
+    {
+        flex-direction: column;
+    }
+    .Portfolio .portfolio-imgs .portfolio-img
+    {
+        width: 90%;
+        margin-left: 25px;
+    }
+    .Portfolio
+    {
+        margin: 50px 0px;
+    }
+    .Services .services-container
+    {
+        margin: 0px 20px;
+        padding: 10px;
+    }
+    .Services .services-container .service
+    {
+        padding: 20px;
+    }
+    .counter-contianer
+    {
+        flex-direction: column; 
+    }
+    .counter .single-counter
+    {
+        width:100%;
+        padding: 20px;
+    }
+    .counter .counter-contianer .single-counter i
+    {
+        margin-top: 5px;
+    }
+    
+    .feedback .feedback-img .feedback-contianer
+    {
+        width: 90%;
+    }
+    
+    .feedback .feedback-contianer .feedback-content 
+    {
+        width: 100%;
+    }
+    .feedback .feedback-img .feedback-contianer img
+    {
+        width: 100%;
+    }
+    .feedback .feedback-img .feedback-contianer .stars i
+    {
+        left:0;
+    }
+    .blog .blog-imgs .blog-container
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .blog .blog-imgs .blog-img1
+    {
+        width: 90%;
+        margin: 10px 25px;
+    }
+    .contact .form .first .input-name
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact .form .first .input-email
+{
+    width: 100%;
+}
+
+.contact .form .second
+{
+    width: 90%;
+}
+
+.contact .form .second .input-subject
+{
+    width: 100%;
+}
+
+.contact .form .second .input-area
+{
+    width: 100%;
+}
+.contact .desing
+{
+    width:30%;
+}
+    
+}
+
+/*<!-------- Medium devices (landscape tablets, 768px and up) -------> */
+@media only screen and (min-width: 768px) and (max-width: 991.98px)
+{
+    .home
+    {
+        height: 700px;
+        background-size: cover;
+        background-position:center;
+    }
+    .home-content h1
+    {
+        font-size: 50px;
+    }
+    .home .navbar .links
+    {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .about
+    {
+        flex-direction: column;
+    }
+    .about .img-contianer
+    {
+        width: 90%;
+        margin-left: 20px;
+    }
+    
+    .about .img-contianer img
+    {
+        width: 100%;
+    }
+    
+    .about-content
+    {
+        width: 100%;
+    }
+    .about-content .content
+    {
+        margin: 50px;
+    }
+    .about-content .content p
+    {
+        padding:20px 0px;
+        font-size:12px;
+    }
+    .about-content .content ul li
+    {
+        font-size:25px;
+    }
+    .about-content .content ul h5
+    {
+        font-size:30px;
+    }
+    .about-content .content ul li a
+    {
+        font-size:25px;
+    }
+    .about-content .content .btns
+    {
+        margin-top:25px;
+    }
+    .Services .desing
+    {
+        width: 20%;
+    }
+    .Services .services-container
+    {
+        flex-direction: column;
+    }
+    .Services .services-container .service
+    {
+        width: 100%;
+    }
+    .Services .services-container .service h3
+    {
+        font-size: 15px;
+    }
+    .Services .services-container .service p
+    {
+        font-size:12px;
+    }
+    .Portfolio .desing
+    {
+        width: 20%;
+    }
+    .Portfolio .Portfolio-links
+    {
+        margin-bottom: 20px;
+    }
+    .Portfolio .Portfolio-links a
+    {
+        font-size:20px;
+    }
+    .Portfolio h2
+    {
+        margin-top: 20px;
+    }
+    .Portfolio .portfolio-imgs .portfolio-container
+    {
+        flex-direction: column;
+    }
+    .Portfolio .portfolio-imgs .portfolio-img
+    {
+        width: 95%;
+        margin-left: 25px;
+    }
+    .Portfolio
+    {
+        margin: 50px 0px;
+    }
+    .Services .services-container
+    {
+        margin: 0px 20px;
+        padding: 10px;
+    }
+    .Services .services-container .service
+    {
+        padding: 20px;
+    }
+
+    .counter-contianer
+    {
+        flex-direction: column; 
+    }
+    .counter .single-counter
+    {
+        width:100%;
+        padding: 25px;
+    }
+    .counter .counter-contianer .single-counter i
+    {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    .counter .counter-contianer .single-counter h5
+    {
+        font-size: 25px;
+    }
+
+    .feedback .desing
+    {
+        width: 20%;
+    }
+    
+    .feedback .feedback-img .feedback-contianer
+    {
+        width: 90%;
+    }
+    
+    .feedback .feedback-contianer .feedback-content 
+    {
+        width: 75%;
+        padding: 20px;
+    }
+    .feedback .feedback-img .feedback-contianer img
+    {
+        width: 100%;
+    }
+    .feedback .feedback-img .feedback-contianer .stars i
+    {
+        left:0;
+    }
+
+    .blog .desing
+    {
+        width: 20%;
+    }
+
+    .blog .blog-imgs .blog-container
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .blog .blog-imgs .blog-img1
+    {
+        width: 95%;
+        margin: 20px 20px;
+        padding: 10px;
+    }
+    .blog .blog-imgs .blog-container h3
+    {
+        font-size: 18px;
+        margin: 5px;
+    }
+    .blog .blog-imgs .blog-container p
+    {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .blog .blog-imgs .blog-container iframe
+    {
+        height:350px;
+    }
+    .contact     .desing
+    {
+        width: 20%;
+    }
+
+    .contact .form .first .input-name
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact .form .first .input-email
+    {
+        width: 100%;
+    }
+    
+    .contact .form .second
+    {
+        width: 90%;
+    }
+    
+    .contact .form .second .input-subject
+    {
+        width: 100%;
+    }
+    
+    .contact .form .second .input-area
+    {
+        width: 100%;
+    }
+    .contact .desing
+    {
+        width:30%;
+    }
+}
+
+/*<!------ Large devices (laptops/desktops, 992px and up) ---->*/
+@media only screen and (min-width: 992px) and (max-width: 1199.98px)
+{
+    .home
+    {
+        height: 700px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .home .navbar .links
+    {
+        flex-direction: row;
+        justify-content:flex-end;
+    }
+    .about
+    {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .about .img-contianer
+    {
+        width: 30%;
+        
+    }
+    
+    .about .img-contianer img
+    {
+        width: 100%;
+    }
+    
+    .about-content
+    {
+        width: 50%;
+    }
+    .about-content .content
+    {
+        margin: 0px 25px;        
+    }
+
+    .about-content .content p
+    {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-content .content ul li
+    {
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    .about-content .content .btns
+    {
+        margin-top:25px;
+    }
+
+    .Services .services-container
+    {
+        flex-direction: row;
+    }
+    .Services .services-container .service
+    {
+        width: 50%;
+    }
+    
+    .Portfolio .portfolio-imgs .portfolio-container
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .Portfolio .portfolio-imgs .portfolio-img
+    {
+        width:27%;
+        margin: 10px;
+    }
+    
+    .Portfolio
+    {
+        margin: 50px 0px;
+    }
+
+    .Services .services-container
+    {
+        margin: 20px 20px;
+        padding: 10px;
+    }
+    .Services .services-container .service
+    {
+        padding: 20px;
+    }
+
+    .counter-contianer
+    {
+        flex-direction: row;
+    }
+    .counter .single-counter
+    {
+        width:25%;
+        padding: 80px;
+    }
+    .counter .counter-contianer .single-counter i
+    {
+        margin-top: 5px;
+        width: 50px;
+    }
+    .feedback .feedback-img .feedback-contianer
+    {
+        width: 60%;
+    }
+    
+    .blog .blog-imgs .blog-container
+    {
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+
+    .blog .blog-imgs .blog-img1
+    {
+        width: 27%;
+        margin: 15x 20px;
+    }
+    .blog .blog-imgs .blog-container iframe
+    {
+        height: 165px;
+    }
+    
+    .contact .form .first
+    {
+        width: 80%;
+        text-align: center;
+    }
+
+    .contact .form .first .input-name
+    {
+        width: 31%;
+        margin-bottom: 10px; 
+    }
+    .contact .form .first .input-email
+    {
+        width: 31%;
+        margin-bottom: 10px; 
+    }
+    
+    .contact .form .second
+    {
+        width: 80%;
+        text-align: center;
+    }
+    .contact .form .second .input-subject
+    {
+        width: 70%;
+    }
+    .contact .form .second .input-area
+    {
+        width: 70%;
+    } 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{}
